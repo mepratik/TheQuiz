@@ -1,0 +1,113 @@
+/* CSS for Quiz Website
+   Author:- Pratik Kumar */
+   
+
+body
+{
+	font-family:"calibri";
+	background-image:url('images/mountain.jpg');
+}
+
+#wrapper
+{
+width:970px;
+color:white;
+height:590px;
+background-color:rgba(0, 0, 0, 0.73);
+border-radius:50px;
+margin:auto;
+}
+.menu 
+{
+width:80px;
+height:40px;
+background-color:Black;
+color:White;
+border-radius:15px;
+cursor:pointer;
+z-index:500;
+}
+.joiningg
+{
+width:60px;
+height:30px;
+background-color:yellow;
+color:black;
+border-radius:15px;
+cursor:pointer;
+z-index:500;
+}
+#mainmenu
+{
+position: relative;
+float: right;
+right: 10px;
+top: 45px;
+
+}
+#icons
+{
+max-height:23px;
+color:red;
+width: 400px;
+position: absolute;
+right: 100px;
+
+}
+#searchbar
+{
+position:relative;
+top:-7px;
+left:-5px;
+}
+#hed
+{
+position:relative;
+top:2px;
+border-radius:50px;
+background-color:white;
+height:95px;
+}
+#logo
+{
+border-radius:50px;
+position:relative;
+top: 15px;
+left: 39px;
+height:95px;
+width:100px;
+}
+.content
+{
+margin:auto;
+height:400px;
+width:900px;
+border-radius:15px;
+}
+#footer
+{
+position:relative;
+top:27px;
+text-align:center;
+}
+.cheading
+{
+background-color:red;
+color:black;
+text-align:center;
+}
+.ifield, .ifield1
+{
+margin-left:20px;
+}
+
+.qbutton
+{
+background-color:marron;
+color:white;
+cursor:pointer;
+}
+#quiz_content
+{
+font-weight:bold;
+}
